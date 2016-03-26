@@ -1,8 +1,9 @@
 package main
 
 import (
-	"flag"
-	"fmt"
+        "flag"
+        "fmt"
+        "strings"
 )
 
 func main() {
@@ -15,4 +16,12 @@ func main() {
                 flag.PrintDefaults()
 	}
         flag.Parse()
+	
+	if tag != "" && strings.Contains(tag, ":") {
+   		parts := strings.Split(tag, ":")
+		if parts[0] == "" || parts[1] == "" {
+			fmt.Printf("bad tag format: %s\n", tag)
+		}
+	}
+
 }
