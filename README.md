@@ -1,1 +1,1 @@
-![License MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![Circle CI](https://circleci.com/gh/ankitforcode/dquash/tree/master.svg?style=svg)](https://circleci.com/gh/ankitforcode/dquash/tree/master)
+![Dquash](https://img.shields.io/badge/dquash-green-green.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![Circle CI](https://circleci.com/gh/ankitforcode/dquash/tree/master.svg?style=svg)](https://circleci.com/gh/ankitforcode/dquash/tree/master)
